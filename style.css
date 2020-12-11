@@ -1,0 +1,196 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    body {
+        background: grey;
+        margin: 0 auto;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .main {
+        background-color: white;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .header {
+        width: 100%;
+        background: orangered;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    .header__title {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        padding: 0 0 0 30px;
+    }
+    
+    .header__nav {}
+    
+    .header__list {}
+    
+    .header__list--item {
+        display: inline;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    
+    .header__list--item a {
+        color: orange;
+        text-decoration: none;
+    }
+    
+    .header__list--item a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .hero {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .hero__title {
+        color: tomato;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+    
+    .hero__img {
+        width: 300px;
+    }
+    
+    .hero__text {
+        color: darkslategray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        padding: 20px;
+        text-align: justify;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+    
+    .footer {
+        height: 50px;
+        width: 100%;
+        background: black;
+        padding: 10px;
+    }
+    
+    .footer__top {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        background: tomato;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .footer__text {
+        color: darkslategray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        margin: 10px;
+        text-align: justify;
+        letter-spacing: 0.01em;
+    }
+    
+    .blog {}
+    
+    .blog__title {
+        color: tomato;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+    
+    .blog__text {
+        color: darkslategray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        padding: 20px;
+        text-align: justify;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+    
+    .sites {
+        color: darkslategray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        padding: 20px;
+        text-align: justify;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+    
+    .sites__title {
+        color: tomato;
+        font-size: 16px;
+    }
+    
+    .sites__list {
+        font-size: 15px;
+    }
+    
+    .sites__list--item {}
+    
+    .list {
+        color: darkslategray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+    
+    .list__title {
+        color: tomato;
+        font-size: 24px;
+    }
+    
+    .game {
+        color: darkslategray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        padding: 20px;
+        text-align: justify;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+    
+    .game__list {
+        font-size: 15px;
+    }
+    
+    .game__title {
+        color: tomato;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    
+    .game__list--item {}
+    
+    .progLang {
+        color: darkslategray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        padding: 20px;
+        text-align: justify;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+    }
+    
+    .progLang__title {
+        color: tomato;
+        font-size: 16px;
+    }
+    
+    .progLang__list {
+        font-size: 15px;
+    }
+    
+    .progLang__list--item {}
